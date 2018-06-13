@@ -33,7 +33,7 @@ elif [[ ${MODE} == "UPSTREAM" ]]; then
 fi
 
 wget wget https://www.haproxy.org/download/1.8/src/haproxy-${HA_VERSION}.tar.gz
-tar xzf v${HA_VERSION}.tar.gz
+tar xzf haproxy-${HA_VERSION}.tar.gz
 
 mkdir -p pnda-build
 cd haproxy-${HA_VERSION}
